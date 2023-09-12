@@ -15,7 +15,7 @@ COPY ./nginx_default.conf /etc/nginx/nginx.conf
 
 WORKDIR /app
 # Expose the port the app will run on
-EXPOSE 80
+EXPOSE 3000
 
 # Start the application
 # CMD ["npm", "start"]
